@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/React-Role-Based-Access-Control-Dashboard/',
+
   plugins: [
     react(),
     babel({ presets: [reactCompilerPreset()] })
